@@ -1,0 +1,100 @@
+.edtech-hiring-section {
+  text-align: center;
+  padding: 50px;
+  font-family: "Arial", sans-serif;
+}
+
+.edtech-section-subtitle {
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.edtech-section-title {
+  font-family: Mona Sans, sans-serif;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: start;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.edtech-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.edtech-feature-card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.edtech-feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.edtech-card-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.edtech-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.edtech-description {
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.edtech-highlight {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+/* Layout styles */
+.edtech-large-card {
+  grid-column: span 2;
+}
+
+.edtech-small-card {
+  grid-column: span 1;
+}
+
+.edtech-card-left {
+  padding-top: 25%;
+}
+
+.edtech-top-right {
+  background: #dbeafe;
+}
+
+.edtech-bottom-left {
+  background: #fef3c7;
+}
+
+.edtech-bottom-right {
+  background: #d1fae5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .edtech-grid-container {
+    grid-template-columns: 1fr;
+  }
+}

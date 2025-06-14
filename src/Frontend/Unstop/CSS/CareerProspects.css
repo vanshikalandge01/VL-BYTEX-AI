@@ -1,0 +1,64 @@
+.career-pro-containers {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 848px;
+    margin: -352px auto 0;
+    text-align: left;
+  }
+  
+  .career-pro-containers h2 {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .career-pro-containers .subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .prospect-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+  }
+  
+  .prospect-item p {
+    color: #444;
+    font-size: 16px;
+    margin-left: 10px;
+    flex: 1;
+  }
+  
+  .career-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .pink {
+    background-color: #e91e63;
+  }
+  
+  .yellow {
+    background-color: #fbc02d;
+  }
+  
+  .blue {
+    background-color: #673ab7;
+  }
+  

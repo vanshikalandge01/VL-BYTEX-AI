@@ -1,0 +1,146 @@
+/* General Styling */
+.key-takeaways-container {
+  max-width: 296px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  position: sticky;
+  margin-left: auto; /* Pushes it to the right */
+  margin-right: 0; /* Ensures it aligns to the right */
+}
+
+/* Top Section (Heart, Share & Pro Button) */
+.key-top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Heart and Share Icons */
+.key-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.heart-icon,
+.share-icon {
+  font-size: 18px;
+  color: #6c4de6;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.heart-icon:hover,
+.share-icon:hover {
+  color: #5b3cc4;
+}
+
+/* Pro Button */
+.buy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  background: #6c4de6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.pro-button:hover {
+  background: #5b3cc4;
+}
+
+.crown-icon {
+  margin-right: 8px;
+}
+
+/* Horizontal Line Below Go Pro Button */
+.separator {
+  border: none;
+  height: 1px;
+  background: #ddd;
+  margin: 15px 0;
+}
+
+/* Key Takeaways Title */
+.takeaways-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Takeaways List */
+.takeaways-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List Items */
+.takeaway-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #555;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* Make each list item clickable */
+.takeaway-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #555;
+  width: 100%;
+  /* padding: 8px; */
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.takeaway-link:hover {
+  background: rgba(108, 77, 230, 0.1);
+  color: #6c4de6;
+}
+
+/* Icons inside List */
+.key-icon {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #555;
+}
+
+/* Text Alignment */
+.key-text {
+  flex-grow: 1;
+}
+/* ////////////////// Mobile View /////////////////// */
+/* Responsive Design */
+@media (max-width: 400px) {
+  .key-takeaways-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .pro-button {
+    font-size: 14px;
+  }
+
+  .takeaway-item {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,23 @@
+/* Navbar Styling */
+.para-navbar {
+  display: flex;
+  justify-content: center;  /* Center the logo */
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+/* Logo Styling */
+.para-logo {
+  max-width: 170px;  /* Adjust logo size */
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .para-logo {
+    max-width: 140px;
+  }
+}

@@ -1,0 +1,118 @@
+/* Container */
+.media-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif !important;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* Title */
+.media-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+  color: #272c37;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+/* Wrapper */
+.media-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
+}
+
+/* Row Layout */
+.media-row {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  width: 100%;
+  transition: transform 0.3s ease-in-out; /* Smooth sliding animation */
+}
+
+/* Card Styling */
+.media-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  /* padding: 15px; */
+  padding: 5px 0px 20px 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 278px;
+  flex-shrink: 0; /* Prevent cards from shrinking */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-logo {
+  height: 75px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.media-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #272c37;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+/* Read More Link */
+.media-link {
+  color: #1289ee;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.media-link:hover {
+  text-decoration: underline;
+}
+
+/* Arrow Buttons */
+.media-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  width: 48px;
+  height: 44px;
+  line-height: 40px;
+}
+
+.media-arrow:hover {
+  background: #f1f1f1;
+}
+
+.media-arrow-left {
+  left: 3px; /* Position left arrow */
+}
+
+.media-arrow-right {
+  right: 3px; /* Position right arrow */
+}

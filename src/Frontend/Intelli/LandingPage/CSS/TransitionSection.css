@@ -1,0 +1,42 @@
+.career-transition-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: url("../Images/Transition.png") no-repeat center center/cover;
+  padding: 40px;
+  margin: 90px;
+  border-radius: 20px;
+  height: 250px;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+}
+.text-content {
+  position: relative;
+  z-index: 2;
+  max-width: 60%;
+  text-align: start;
+}
+
+
+
+.download-button {
+  /* background-color: #ff7f50; */
+  background-color: #00bf63;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.download-button:hover {
+  /* background-color: #e6693e; */
+  background-color: #1f975d;
+}

@@ -1,0 +1,158 @@
+/* Footer Container */
+.para-footer {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* gap: 10px; */
+  }
+  
+  /* Footer Top Section */
+  .para-footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  
+  .para-footer-logo {
+    width: 120px;
+  }
+  
+  /* Back to Top Button */
+  .para-back-to-top {
+    margin-left: 760px;
+    margin-right: 20px ;
+    align-items: center;
+    background: none;
+    font-weight: 600;
+    line-height: 18px;
+    display: flex;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    
+  }
+  
+  .para-back-to-top:hover {
+    /* text-decoration: underline;  */
+    /* text-shadow: #ffffff; */
+    /*#12141d text-decoration-color: aq; */
+    background-color:#ffffff;
+    /* text-anchor: end; */
+    color: rgba(0, 220, 220, 0.4);;
+  }
+  
+  /* Demo Button */
+  .para-demo-button {
+    background: #e3f6f8;
+    color: #25c9d0;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .para-demo-button:hover {
+    background: rgba(0, 220, 220, 0.4);
+    color: #ffffff;
+  }
+  
+  
+  /* Footer Bottom Section */
+  .para-footer-bottom {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    border-top: 1px solid #a9a9a9 ;
+  }
+  
+  /* Social Icons */
+  .para-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  
+  .para-social-icons img {
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  .para-social-icons img:hover {
+    opacity: 0.7;
+  }
+  
+  /* Footer Links */
+  .para-footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+  }
+  
+  .para-footer-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .para-footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Info */
+  .para-footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    gap: 20px;
+  }
+  
+  /* Cookie Settings */
+  .para-cookie-settings {
+    text-decoration: none;
+    color: black;
+    font-size: sma;
+  }
+
+  
+  .para-cookie-settings:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .para-footer-top {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .para-social-icons {
+      gap: 10px;
+    }
+  
+    .para-footer-links {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .para-footer-info {
+      flex-direction: column;
+      text-align: center;
+      gap: 5px;
+    }
+  }
+  

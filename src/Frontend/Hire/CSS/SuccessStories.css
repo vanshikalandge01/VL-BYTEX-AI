@@ -1,0 +1,40 @@
+.success-stories-banner {
+  position: relative;
+  width: 90%;
+  max-width: 1200px; /* Limits max stretching */
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background: url("https://cdn.prod.website-files.com/62e8d2ea218fb7676b6892a6/670995bc25d1a78a04bd7a10_Linear%20Gradient.svg")
+    no-repeat center center;
+  background-size: cover;
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto; /* Centers the banner */
+}
+
+.success-stories-text {
+  text-align: center;
+}
+
+.success-stories-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.success-stories-description {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.success-stories-cta {
+  font-size: 14px;
+  color: #40a9ff;
+  text-decoration: underline;
+}

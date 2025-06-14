@@ -1,0 +1,123 @@
+/* Container */
+.linkedin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Testimonials Wrapper */
+.testimonials-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  overflow-x: auto;
+  scrollbar-width: none; /* Hide scrollbar for modern browsers */
+}
+
+/* Individual Card */
+.linkedin-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+
+/* Header Section */
+.linkedin-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.linkedin-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.linkedin-info {
+  flex-grow: 1;
+}
+
+.linkedin-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.linkedin-role {
+  font-size: 14px;
+  color: gray;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+  font-size: 20px;
+}
+
+/* Rating Section */
+.linkedin-rating {
+  margin: 10px 0;
+}
+
+.star-icon {
+  color: #00c86f;
+  margin-right: 2px;
+}
+
+/* Review Text */
+.linkedin-review {
+  font-size: 14px;
+}
+
+/* Read More Button */
+.read-more {
+  color: #0077b5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Arrows */
+.navigation-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+
+.nav-button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  /* color: #6c63ff; */
+  color: #00a859;
+}
+
+.nav-track {
+  width: 100px;
+  height: 5px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden; /* Ensure the indicator stays within the track */
+}
+
+.nav-indicator {
+  width: 30px;
+  height: 5px;
+  background: #00bf63;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%); /* Center the indicator */
+  transition: left 0.3s ease; /* Smooth transition */
+}

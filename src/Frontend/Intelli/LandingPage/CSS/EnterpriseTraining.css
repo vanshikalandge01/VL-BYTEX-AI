@@ -1,0 +1,67 @@
+.enterprise-training {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+.sidebar {
+  flex: 1;
+  align-content: center;
+  background: #fff;
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+  text-align: start;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #272c37;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: #272c37;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 38px;
+  border-radius: 10px;
+  position: relative;
+  padding-right: 30px;
+  margin-bottom: 4px;
+}
+
+.icon {
+  color: #ff6600;
+}
+
+.demo-button-ET {
+  margin-top: 15px;
+  padding: 10px;
+  background: #00bf63;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.demo-button-ET:hover{
+  background-color: #1f975d;
+}
+.main-content {
+  flex: 2;
+  text-align: center;
+}

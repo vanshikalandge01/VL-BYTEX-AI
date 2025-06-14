@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* Main container styling */
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Company logo styling */
+.company-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Form title styling */
+.form-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Welcome text styling */
+.welcome-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Social buttons container */
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+/* Social button base styling */
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  background-color: #f5f5f5;
+}
+
+/* LinkedIn button specific styling */
+.linkedin {
+  color: #0077b5;
+}
+
+/* Google button specific styling */
+.google {
+  color: #4285F4;
+}
+
+/* Social icon styling */
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+/* OR text divider */
+.or-text {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.or-text::before,
+.or-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.or-text::before {
+  left: 0;
+}
+
+.or-text::after {
+  right: 0;
+}
+
+/* Input row for first name and last name */
+.input-row {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+/* Input field styling */
+.input-field {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #1f975d;
+}
+
+/* Submit button styling */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #1f975d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.submit-btn:hover {
+  background-color: #178a52;
+}
+
+/* Sign in text and link */
+.signin-text {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.signin-link {
+  color: #1f975d;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .signup-form-container {
+    padding: 20px 15px;
+    max-width: 100%;
+    box-shadow: none;
+  }
+  
+  .input-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .social-buttons {
+    flex-direction: column;
+  }
+}
