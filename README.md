@@ -104,6 +104,5 @@ License
 All Rights Reserved.
 
 Contact
-Vedant Vaidya
-EMAIL: vedantvaidya.work@gmail.com
-linkedin: https://www.linkedin.com/in/vedantvaidya02/
+Vanshika Landge
+EMAIL: vanshikalandge01@gmail.com
